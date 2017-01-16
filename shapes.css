@@ -2,7 +2,12 @@
     text-align: center;
 }
 
-#square {
+#square {#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid red;
+	border-right: 100px solid transparent;
+}
 
     width: 100px;
     height: 100px;
@@ -46,4 +51,39 @@
 	border-top: 50px solid transparent;
 	border-right: 100px solid orange;
 	border-bottom: 50px solid transparent;
+}
+#triangle4{
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid lightblue;
+	border-bottom: 50px solid transparent;
+}
+
+/*started to add hex color*/
+#triangle5 {
+	width: 0;
+	height: 0;
+	border-top: 100px solid #746C9E;
+	border-right: 100px solid transparent;
+}
+
+#triangle6{
+	width: 0;
+	height: 0;
+	border-top: 100px solid #36AC6D;
+	border-left: 100px solid transparent;
+
+}
+#triangle7{
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #BF6825;
+	border-right: 100px solid transparent;
+}
+#triangle8{
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #2544BF;
+	border-left: 100px solid transparent;
 }
