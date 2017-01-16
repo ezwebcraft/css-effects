@@ -40,3 +40,10 @@
 	border-right: 50px solid transparent;
 	border-top: 100px solid yellow;
 }
+#triangle3 {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid orange;
+	border-bottom: 50px solid transparent;
+}
