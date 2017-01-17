@@ -9,7 +9,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <link rel="stylesheet" href="shapes.css">
@@ -21,11 +21,15 @@
 
         <!-- Add your site or application content here -->
     <header id="header" class="">
-        <h1>Shapes</h1>
+      <div class="container">
+        <ul class="nav">
+        <li><h3>SHAPES</h3></li>
+        </ul>
+      </div>
     </header><!-- /header -->
 
     <section>
-        <div id="title"><canvas id="square"></canvas>square</div>
+        <canvas id="square"></canvas>
         <canvas id="rectangle"></canvas>
         <canvas id="circle"></canvas>
         <canvas id="oval"></canvas>
@@ -40,7 +44,9 @@
         <canvas id="trapezoid"></canvas>
     </section>
     <footer>
-        <h1>Footer</h1>
+      <div class="container">
+        <p><h1>&copy;Last Shapes</h1></p>
+      </div>
     </footer>
 
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
