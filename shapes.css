@@ -5,6 +5,7 @@ html, body {
 
 footer{
            background-color: #333;
+           height: 500px;
 }
 .container {
        max-width: 100%;
@@ -124,4 +125,13 @@ footer{
 	border-right: 50px solid transparent;
 	height: 0;
 	width: 100px;
+}
+
+#parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #3A15F4;
 }
