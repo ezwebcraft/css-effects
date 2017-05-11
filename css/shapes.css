@@ -1,0 +1,137 @@
+html, body {
+       margin: 0;
+       padding: 0;
+}
+
+footer{
+           background-color: #333;
+           height: 500px;
+}
+.container {
+       max-width: 100%;
+       margin: 0 auto;
+       padding: 0 10px;
+}
+#header {
+      background-color: #333;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+#square {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+#rectangle {
+  margin: 5px;
+  width: 200px;
+  height: 100px;
+  background: #28DCE2;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+#oval {
+  width: 200px;
+  height: 100px;
+  background: green;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#triangle1 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid tan;
+}
+#triangle2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid yellow;
+}
+#triangle3 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid orange;
+  border-bottom: 50px solid transparent;
+}
+#triangle4{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid lightblue;
+  border-bottom: 50px solid transparent;
+}
+
+/*started to add hex color*/
+#triangle5 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #746C9E;
+  border-right: 100px solid transparent;
+}
+
+#triangle6{
+  width: 0;
+  height: 0;
+  border-top: 100px solid #36AC6D;
+  border-left: 100px solid transparent;
+
+}
+#triangle7{
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #BF6825;
+  border-right: 100px solid transparent;
+}
+#triangle8{
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #2544BF;
+  border-left: 100px solid transparent;
+}
+
+#trapezoid {
+  border-bottom: 100px solid #E228DC;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 100px;
+}
+
+#parallelogram {
+  width: 150px;
+  height: 100px;
+  -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+       -o-transform: skew(20deg);
+  background: #3A15F4;
+}
