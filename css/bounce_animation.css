@@ -25,3 +25,14 @@
     -webkit-animation-delay: 0.9s;
     -moz-animation-delay: 0.9s;
 }
+
+
+@-webkit-keyframes loader {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 0.9;
+    -webkit-transform: translateY(0);
+  }
+
+}
