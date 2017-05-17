@@ -1,0 +1,15 @@
+/*add loader to the center*/
+
+.loader {
+    text-align: center;
+}
+.loader span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin: 50px auto;
+    background: black;
+    border-radius: 50px;
+
+}
