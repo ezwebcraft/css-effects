@@ -26,7 +26,7 @@
     -moz-animation-delay: 0.9s;
 }
 
-
+/*key part loader with this the animation can start with transform*/
 @-webkit-keyframes loader {
   0% {
     width: 10px;
@@ -34,5 +34,15 @@
     opacity: 0.9;
     -webkit-transform: translateY(0);
   }
+  100% {
+    width: 24px;
+    height: 24px;
+    opacity: 0.1;
+    -webkit-transform: translateY(-21px);
+  }
+}
 
+
+@-moz-keyframes loader {
+  
 }
