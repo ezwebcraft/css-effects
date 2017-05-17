@@ -11,5 +11,17 @@
     margin: 50px auto;
     background: black;
     border-radius: 50px;
+    -webkit-animation: loader 0.12s infinite alternate;
+  -moz-animation: loader 0.12s infinite alternate;
 
+}
+
+
+.loader span:nth-of-type(2) {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+.loader span:nth-of-type(3) {
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
 }
